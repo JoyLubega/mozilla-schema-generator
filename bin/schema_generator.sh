@@ -163,6 +163,7 @@ function main() {
             --normalize-case \
             --force-nullable \
             --tuple-struct \
+            --allow-maps-without-value \
                 "$fname" > "$bq_out"
     done
 
